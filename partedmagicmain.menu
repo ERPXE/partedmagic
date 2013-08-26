@@ -1,0 +1,18 @@
+LABEL PARTEDMAGICLV
+MENU LABEL ^Parted Magic
+KERNEL er/plugins/partedmagic/bzimage
+INITRD er/plugins/partedmagic/initrd.img
+APPEND edd=off noapic load_ramdisk=1 prompt_ramdisk=0 rw vga=788 loglevel=0 max_loop=256 keymap=us en_US
+TEXT HELP
+                 Parted Magic - Partitioning Tool.
+ENDTEXT
+
+LABEL PARTEDMAGICLM
+MENU LABEL ^Parted Magic LiveMedia
+KERNEL er/plugins/partedmagic/bzimage
+INITRD er/plugins/partedmagic/initrd.img
+APPEND edd=off noapic load_ramdisk=1 prompt_ramdisk=0 rw loglevel=0 vga=788 livemedia noeject max_loop=256 keymap=us en_US
+TEXT HELP
+                 Parted Magic - Partitioning Tool
+                 Live-Media Edition.
+ENDTEXT

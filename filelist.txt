@@ -1,0 +1,16 @@
+.:
+filelist.txt
+i386
+partedmagic.menu
+partedmagic.png
+x86_64
+
+./i386:
+bzimage
+initrd.img
+partedmagicmain.menu
+
+./x86_64:
+bzimage
+initrd.img
+partedmagicmain.menu
