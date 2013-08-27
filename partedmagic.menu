@@ -1,9 +1,6 @@
 MENU BEGIN PARTEDMAGIC
+MENU TITLE Parted Magic 14-05-2012
 MENU LABEL ^Parted Magic 14-05-2012
-# ------====> Include Menu Settings <====------
-MENU INCLUDE er/menuinc/header.module
-
-# ------====> Set Specific Page Settings <====------
 MENU BACKGROUND er/plugins/partedmagic/partedmagic.png
 
 MENU INCLUDE er/plugins/partedmagic/i386/partedmagicmain.menu
